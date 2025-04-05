@@ -1,0 +1,35 @@
+{
+  "name": "lab_redis",
+  "version": "1.0.0",
+  "description": "lab_redis",
+  "keywords": [
+    "redis",
+    "typescript",
+    "nodejs"
+  ],
+  "author": {
+    "name": "Nguyen Chanh Dai",
+    "email": "dai@chanhdai.com",
+    "url": "https://github.com/ncdai"
+  },
+  "main": "dist/main.js",
+  "scripts": {
+    "start": "pnpm tsc && node dist/main.js",
+    "lint": "eslint . --ext .ts",
+    "lint:fix": "eslint . --ext .ts --fix"
+  },
+  "packageManager": "pnpm@10.7.0",
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "redis": "^4.7.0"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.23.0",
+    "@types/node": "^22.14.0",
+    "@typescript-eslint/eslint-plugin": "^8.29.0",
+    "@typescript-eslint/parser": "^8.29.0",
+    "eslint": "^9.23.0",
+    "typescript": "^5.8.2",
+    "typescript-eslint": "^8.29.0"
+  }
+}
